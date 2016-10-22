@@ -84,6 +84,8 @@ p {
 }
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
+  width: 100px;
+  -webkit-border-radius: 50%;
 }
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -100,7 +102,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 16px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -220,7 +222,13 @@ p {
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
+  color: #2d7788;
 }
+
+.main-wrapper .project-tagline p {
+  text-align: justify;
+}
+
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
 }
